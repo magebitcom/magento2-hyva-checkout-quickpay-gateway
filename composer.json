@@ -1,0 +1,21 @@
+{
+  "name": "magebitcom/magento2-hyva-checkout-quickpay-gateway",
+  "version": "1.0.0",
+  "description": "This module enables to use QuickPay Gateway module with Hyva checkout",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "hyva-themes/magento2-compat-module-fallback": "*",
+    "hyva-themes/magento2-hyva-checkout": "*",
+    "quickpay/magento2": "^2.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magebit\\CheckoutQuickPayPayment\\": ""
+    }
+  }
+}
